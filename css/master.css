@@ -1,3 +1,52 @@
+@font-face {
+  font-family: 'Nunito-light';
+  src:url('../Assets/font/Nunito/Nunito-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito-ExtraLight';
+  src: url('../Assets/font/Nunito/Nunito-ExtraLight.ttf');
+}
+
+@media only screen and (max-width: 600px){ /*inicio da configuração do mobile*/
+
+#svgPc svg{
+  width: 40%;
+  height: auto;
+}
+
+#precos img{
+  width: 60%;
+  margin-top: 18px;
+}
+
+#btnGrana{
+  display: none;
+}
+
+#primeiroTexto{
+  font-size: 20px !important;
+  margin-left: 1rem !important;
+}
+
+#primeiroTitulo{
+  margin-left: 2rem !important;
+  font-family: 'Nunito-Light';
+  font-size: 20px;
+}
+
+
+#svgPc{
+  margin-top: -3rem !important;
+  padding-right: 3rem !important;
+  margin-left: -82px;
+}
+}
+
+
+
+}/*fim do media mobile*/
+
 
 
 
@@ -16,6 +65,30 @@
   background-color: #1f6580;
 }
 
-#svg-pc{
-  width: 50%;
+#svgPc{
+  /*padding-left: 14.4375rem;*/
+  margin-top: -210px;
+  padding-right: 4.4375rem;
+}
+
+#btnGrana{
+  font-family: 'Nunito-ExtraLight';
+  font-size: 20px;
+  background-color: #F20190;
+}
+
+#primeiroTexto{
+  margin-left: 3.4375rem;
+  font-family: 'Nunito-ExtraLight' !important;
+  font-size: 24px;
+}
+
+#primeiroTexto p{
+  font-family: 'Nunito-ExtraLight' !important;
+}
+
+#primeiroTitulo{
+  margin-left: 3.4375rem;
+  font-family: 'Nunito-Light';
+  font-size: 42px;
 }

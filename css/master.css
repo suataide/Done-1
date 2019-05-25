@@ -20,6 +20,7 @@
   margin-top: 18px;
 }
 
+
 #btnGrana{
   display: none;
 }
@@ -37,17 +38,17 @@
 
 
 #svgPc{
-  margin-top: -3rem !important;
+  margin-top: -1rem !important;
   padding-right: 3rem !important;
   margin-left: -82px;
 }
-}
-
-
 
 }/*fim do media mobile*/
 
 
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
 
 
 .header{
@@ -91,4 +92,11 @@
   margin-left: 3.4375rem;
   font-family: 'Nunito-Light';
   font-size: 42px;
+}
+
+#footerBox{
+background-color: #909090;
+height: 200px;
+position: absolute;
+bottom: 0;
 }

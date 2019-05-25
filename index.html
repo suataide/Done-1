@@ -26,10 +26,10 @@ que aquela seção é um slide -->
         <!---container do video -->
     <div class="section header" data-anchor="slide1"><!-- no caso aqui é a header do site -->
 
-              <section class="embed-responsive embed-responsive-16by9">
+            <section class="embed-responsive embed-responsive-16by9">
 
-                          <video  autoplay data-keepplaying poster="" allowFullScreen="no" style="background-color:#92d3ed;">
-                            <source data-src="Assets/header.webm" type="video/webm" />
+                          <video  autoplay data-keepplaying poster="" allowFullScreen="no">
+                            <source data-src="Assets/cover.webm" type="video/webm" />
                       </video>
 
               </section>
@@ -77,15 +77,15 @@ que aquela seção é um slide -->
                 <div class="row text-center" id="precos">
 
                     <div class="col-md-4">
-                      <a href="#"><img src="Assets/Básico.png" alt="Básico"></a>
+                      <a href="#"><img class="grow" src="Assets/Básico.png" alt="Básico"></a>
                     </div>
 
                     <div class="col-md-4">
-                  <a href="#"><img src="Assets/Intermediário.png" alt=""></a>
+                  <a href="#"><img class="grow" src="Assets/Intermediário.png" alt=""></a>
                     </div>
 
                     <div class="col-md-4">
-                    <a href="#"><img src="Assets/Premium.png" alt=""></a>
+                    <a href="#"><img class="grow" src="Assets/Premium.png" alt=""></a>
                     </div>
 
                 </div>
@@ -99,11 +99,29 @@ que aquela seção é um slide -->
 
         </div>
       </div>
-        <div class="section autores" data-anchor="slide4"></div> <!-- Autores -->
-        <div class="section footer" data-anchor="slide5"></div><!--  footer -->
 
 
-    </div>
+
+
+        <div class="section autores" data-anchor="slide4"></div>
+
+ <!-- Autores -->
+
+
+
+        <div class="section footer" data-anchor="slide5">
+
+          <div class="container-fluid"  id="footerBox">
+            <div class="row text-bottom">
+
+                <div class="cl-lg-12"></div>
+
+            </div>
+
+          </div>
+
+
+        </div>
 
 
 
@@ -119,7 +137,7 @@ que aquela seção é um slide -->
           //esses aqui são as opçÕes que da pra customizar o site
 
           anchors:['slide1', 'slide2', 'slide3', 'slide4', 'slide5'],
-          sectionColors: ['#92d3ed', '#92d3ed', '#2783a6', '#1f6580', '#1f6580'],
+          sectionColors: ['#92d3ed', '#92d3ed', '#2783a6', '#1f6580', 'red'],
           autoScrolling:true,
           controlArrows: true,
           scrollHorizontally: true,
